@@ -14,5 +14,5 @@ def jobscheduler(f, n):
 if __name__ == '__main__':
     n = int(input())
     while(n):
-        print(jobscheduler(lambda: "Hi! " + time.ctime(), 2000))
+        print(jobscheduler(lambda: time.ctime(), 2000))
         n-=1
